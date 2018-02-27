@@ -1,0 +1,43 @@
+body {}
+
+#root {}
+
+.App {
+    width: 25rem;
+    height: 28rem;
+    overflow: auto;
+    box-shadow: 5px 3px 3px rgba(0, 0, 0, 0.15);
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.todoList {
+    width: 20rem;
+    height: 20rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.button {
+    margin-left: 20px;
+}
+
+.checkbox {
+    margin-right: 10px;
+}
+
+.Input {
+    width: 18rem;
+    height: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.footer {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+}
