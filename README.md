@@ -2,6 +2,8 @@
 
 #### In this tutorial, we build a simple todo app with the ReasonML toolchain. 
 
+## Make sure to run `yarn install` or `npm install` to get all of the dependencies then run `yarn start` or `npm start` to start the development server.
+
 ### Check out the Youtube Tutorial for this [ReasonML Program](https://youtu.be/KOSjVDKmwFw). Here is our [Youtube Channel](https://www.youtube.com/channel/UCYqCZOwHbnPwyjawKfE21wg) Subscribe for more content.
 
 ### Check out our blog at [tensor-programming.com](http://tensor-programming.com/).
