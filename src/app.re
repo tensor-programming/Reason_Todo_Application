@@ -90,10 +90,6 @@ let make = _children => {
     | Delete(id) => ReasonReact.Update({todos: delete(id, todos)})
     },
   render: ({state: {todos}, reduce}) => {
-    let length = List.length(todos);
-    let counter =
-      length > 1 ?
-        string_of_int(length) ++ " todos" : string_of_int(length) ++ " todo";
     <div className="App">
       <h3> (toString("Todo App")) </h3>
       <Input onSubmit=(reduce(todo => Add(todo))) />
@@ -113,7 +109,6 @@ let make = _children => {
           |> ReasonReact.arrayToElement
         )
       </div>
-      <div className="counter"> (toString(counter)) </div>
     </div>;
   }
 };
